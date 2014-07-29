@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>HaspGenerateLibs</id>
+        <version>7.1.1.42058</version>
+        <authors>Andrey</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Библиотека генерации лицензий hasp ключа</description>
+        <copyright />
+        <language>en-US</language>
+    </metadata>
+    <files>
+        <file src="..\Libs\sntl_licgen_net_windows.dll" target="lib\net\sntl_licgen_net_windows.dll" />
+        <file src="..\Libs\sntl_licgen_windows_x64.dll" target="native\x64\sntl_licgen_windows_x64.dll" />
+        <file src="..\Libs\sntl_licgen_windows.dll" target="native\x86\sntl_licgen_windows.dll" />
+    </files>
+</package>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>HaspLibs</id>
+        <version>7.1.1.42058</version>
+        <authors>Andrey</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Библиотека hasp ключа</description>
+        <copyright />
+        <language>en-US</language>
+    </metadata>
+    <files>
+        <file src="..\Libs\haspvlib_70927.dll" target="native\haspvlib_70927.dll" />
+        <file src="..\Libs\hasp_windows_70927.dll" target="native\hasp_windows_70927.dll" />
+    </files>
+</package>
