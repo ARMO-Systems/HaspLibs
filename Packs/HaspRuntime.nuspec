@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>HaspRuntime</id>
+        <version>6.63.43723.1</version>
+        <authors>Andrey</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Инсталлятор Hasp Runtime</description>
+        <copyright />
+        <language>en-US</language>
+    </metadata>
+    <files>
+        <file src="..\Drivers\Sentinel_LDK_Run-time_cmd_line\haspdinst.exe" target="native\haspdinst.exe" />
+    </files>
+</package>

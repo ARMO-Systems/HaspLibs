@@ -16,3 +16,4 @@ set lastPartNuget= -NonInteractive %version%
 
 cmd /c %firstPartNuget%HaspLibs.nuspec%lastPartNuget%
 cmd /c %firstPartNuget%HaspGenerateLibs.nuspec%lastPartNuget%
+cmd /c %firstPartNuget%HaspRuntime.nuspec%lastPartNuget%
